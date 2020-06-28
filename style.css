@@ -1,0 +1,126 @@
+/* css Zen Garden default style v1.02 */
+
+
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+
+/* This file based on 'Tranquille' by Dave Shea */
+
+
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+
+
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+
+body {
+    background-color: yellow;
+    background-image: url(wb.jpg);
+}
+
+aside {
+    float: right;
+    width: 19%;
+    display: inline-block;
+    position: fixed;
+    bottom: 1px;
+    top: 101px;
+    right: 0px;
+    background-image: url(bcg.png);
+    height: 100%;
+    border-left: 5px solid purple;
+}
+
+ul li {
+    list-style: none;
+}
+
+#zen-intro,
+#zen-supporting {
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 200px;
+}
+
+.intro {
+    border: 5px solid rgb(7, 192, 177);
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+    font-size: 15px;
+    background-color: purple;
+    margin-left: 0px;
+}
+
+.sidebar a {
+    color: purple;
+}
+
+.sidebar h3 {
+    color: rgb(170, 255, 0);
+}
+
+h1 {
+    text-align: left;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: break-all;
+    writing-mode: horizontal-tb;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    font-style: italic;
+    border: 5px solid brown;
+    border-width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: url(spongebob.webp);
+    width: 1600px;
+    margin-top: 0px;
+    margin-left: 0px;
+    -webkit-writing-mode: horizontal-tb;
+    -ms-writing-mode: horizontal-tb;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+p {
+    color: rgb(7, 192, 177);
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(170, 255, 0);
+    background-color: purple;
+    font-size: 40px;
+    text-shadow: rgb(0, 225, 255);
+}
+
+#hd {
+    font-size: 50px;
+    color: rgb(7, 192, 177);
+    text-decoration: underline overline;
+    font-style: italic;
+}
+
+footer a {
+    color: chartreuse;
+    font-style: italic;
+    font: message-box;
+    background-color: purple;
+    text-decoration: underline;
+    font-size: 40px;
+    margin: 0px 0px 0px 20px;
+}
