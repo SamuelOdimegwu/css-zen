@@ -18,109 +18,58 @@
 
 /* basic elements */
 
+html {
+    background-color: azure;
+    background-image: radial-gradient(#49ee9b 20%, transparent 20%), radial-gradient(aquamarine 20%, transparent 20%);
+    background-position: 0 0, 50px 50px;
+    background-size: 100px 100px;
+    height: 200px;
+    width: 100%;
+}
+
 body {
-    background-color: yellow;
-    background-image: url(wb.jpg);
-}
-
-aside {
-    float: right;
-    width: 19%;
-    display: inline-block;
-    position: fixed;
-    bottom: 1px;
-    top: 101px;
-    right: 0px;
-    background-image: url(bcg.png);
-    height: 100%;
-    border-left: 5px solid purple;
-}
-
-ul li {
-    list-style: none;
-}
-
-#zen-intro,
-#zen-supporting {
-    width: 80%;
     text-align: center;
-    display: inline-block;
-    margin-top: 200px;
-}
-
-.intro {
-    border: 5px solid rgb(7, 192, 177);
-    border-radius: 70px;
-    -webkit-border-radius: 70px;
-    -moz-border-radius: 70px;
-    -ms-border-radius: 70px;
-    -o-border-radius: 70px;
-    font-size: 15px;
-    background-color: purple;
-    margin-left: 0px;
-}
-
-.sidebar a {
-    color: purple;
-}
-
-.sidebar h3 {
-    color: rgb(170, 255, 0);
+    border: 1px solid grey;
+    border-radius: 80px;
+    width: 500px;
+    padding: 20px;
+    margin-left: 900px;
+    background-color: aquamarine;
+    font-size: 20px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+    position: relative;
 }
 
 h1 {
-    text-align: left;
-    text-overflow: ellipsis;
-    word-wrap: break-word;
-    word-break: break-all;
-    writing-mode: horizontal-tb;
-    color: brown;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 80px;
-    font-style: italic;
-    border: 5px solid brown;
-    border-width: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    background-image: url(spongebob.webp);
-    width: 1600px;
-    margin-top: 0px;
-    margin-left: 0px;
-    -webkit-writing-mode: horizontal-tb;
-    -ms-writing-mode: horizontal-tb;
+    background-color: azure;
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 1px solid azure;
+    background: repeating-linear-gradient( 45deg, azure, aqua 10px, aquamarine 10px, azure 20px);
+}
+
+h2 {
+    border: 1px solid azure;
+    background: repeating-linear-gradient( 145deg, azure, aqua 10px, aquamarine 10px, azure 20px);
+}
+
+h3 {
+    border: 1px solid azure;
+    background: repeating-linear-gradient( 145deg, azure, aqua 10px, aquamarine 10px, azure 20px);
+    margin-right: 90px;
+    margin-left: 90px;
 }
 
 a {
     text-decoration: none;
-    color: blue;
-}
-
-p {
-    color: rgb(7, 192, 177);
-    font-size: 30px;
-}
-
-h3 {
-    color: rgb(170, 255, 0);
-    background-color: purple;
-    font-size: 40px;
-    text-shadow: rgb(0, 225, 255);
-}
-
-#hd {
-    font-size: 50px;
-    color: rgb(7, 192, 177);
-    text-decoration: underline overline;
-    font-style: italic;
-}
-
-footer a {
-    color: chartreuse;
-    font-style: italic;
-    font: message-box;
-    background-color: purple;
-    text-decoration: underline;
-    font-size: 40px;
-    margin: 0px 0px 0px 20px;
+    color: grey;
+    background-color: azure;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
